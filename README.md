@@ -10,7 +10,7 @@ Based on needs, logfile meant for read only can be zipped up.
 logfiles up to 3 months gets zipped up and stored locally in an archive folder
 logs of 7 years are placed on tape. Not directly accessible but can be retrieved when requested for (Similar to AWS Glacier)
 
-## Lifecycle policy
+#### Lifecycle policy
 daily logs: in log dir
 1day - 3months: zipped in archive dir
 3months - 7years: placed on tape storage
